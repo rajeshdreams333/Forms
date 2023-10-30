@@ -1,0 +1,74 @@
+body{
+    /* background-color: rgb(140, 213, 224); */
+    background:url("https://img.freepik.com/free-vector/abstract-realistic-technology-particle-background_23-2148431736.jpg?w=900&t=st=1698704395~exp=1698704995~hmac=59e0b5e0f04fec350c1dc7f7263601e896cd0952effbf0cbdc9c277a6aa19812");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.signup{
+    width: 380px;
+    height: 720px;
+    margin: auto;
+    background-image: linear-gradient(white,rgb(245, 197, 108));
+    border-radius: 5px;
+}
+h1{
+    padding-top: 20px;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding-top: 5px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border:1px solid rgb(235, 202, 19);
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(204, 77, 45);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(247, 237, 107);
+}
+
+p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.login{
+    width: 360px;
+    height: 350px;
+    margin: auto;
+    background-image: linear-gradient(rgb(194, 237, 243),rgb(239, 241, 213));
+    border-radius: 10px;
+    opacity: 80%;
+}
+.logincontainer{
+    padding-top: 150px;
+}
